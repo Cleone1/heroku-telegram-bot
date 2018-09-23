@@ -37,4 +37,5 @@ def pole_reply(message):
 	if 'pole' in message.text.lower():
 		resposta = select_response(message)
 		bot.reply_to(message, resposta)
+		bot.polling(none_stop=True)
 #              ...
