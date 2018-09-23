@@ -8,4 +8,3 @@ requests==2.16.5
 git+https://github.com/Kylmakalle/pyTelegramBotAPI.git@feature-BotAPIV3
 
 # Or you have .zip library
-https://site.org/files/package.zip
