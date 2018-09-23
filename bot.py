@@ -15,9 +15,9 @@ some_api_token = os.environ['SOME_API_TOKEN']
 # If you use redis, install this add-on https://elements.heroku.com/addons/heroku-redis
 
 #       Your bot code below
+# some_api = some_api_lib.connect(some_api_token)
 # bot = telebot.TeleBot(token)
 bot = telebot.TeleBot(TOKEN)
-# some_api = some_api_lib.connect(some_api_token)
 def select_response(message):
 	responses = ['Ie {} tio, no et canses?', '{}, eres un puto pesat de tio', 'Ie {}, ja hi ha prou que ja cansa',
 				'Collons {}, que pesat eres quan vols', "Que si {}, tio pesat, que ja t'hem llegit"]
